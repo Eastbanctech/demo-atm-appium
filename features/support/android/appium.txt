@@ -1,0 +1,6 @@
+[caps]
+platformName = "Android"
+deviceName = "Android Emulator"
+platformVersion = "4.4"
+appPackage = "com.eastbanctech.appuimatm"
+appActivity = ".MainActivity"

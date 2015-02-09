@@ -1,0 +1,9 @@
+# config/cucumber.yml
+##YAML Template
+---
+ios_tests: TEST_PLATFORM=ios --format pretty --tags ~@ios_ignore --tags ~@ignore
+android_tests: TEST_PLATFORM=android --format pretty --tags ~@android_ignore --tags ~@ignore
+
+android_jenkins: TEST_PLATFORM=android --format pretty --format junit --out junit_report/ --format json --out android.json --tags ~@android_ignore --tags ~@ignore
+ios_jenkins: TEST_PLATFORM=ios --format pretty --format junit --out junit_report/ --format json --out android.json --tags ~@ios_ignore --tags ~@ignore
+

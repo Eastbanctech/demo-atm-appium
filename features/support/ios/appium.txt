@@ -1,0 +1,5 @@
+[caps]
+platformName = "ios"
+deviceName = "iPhone Simulator"
+platformVersion = "8.1"
+app = "../Build/Products/Debug-iphonesimulator/AppiumATM.app"
